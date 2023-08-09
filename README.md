@@ -4,6 +4,8 @@ Download geotiffs of satellite ice data and extract the ice concentration at spe
 
 `download_ice_data.py` will download the geotiffs (no land mask) for a user specified range of dates
 
-`classify_ice.ipynb` reads the geotiffs and extracts the nearest pixel to usere specified lon-lat pairs and plots the sea ice extent in time
+`classify_ice.ipynb` reads the geotiffs and extracts the nearest pixel to user specified lon-lat pairs and plots the sea ice extent in time
 
-`figures` contains two figures: the ice cover percentage and whether each day is classed as open water (ice <= 50 %) or ice (ice > 50 %)
+`results` contains csv files of ice percentage and classification for the user specified sites and time range
+
+`figures` contains figures from the results
