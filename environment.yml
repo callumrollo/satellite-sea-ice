@@ -1,0 +1,11 @@
+name: satellite
+channels:
+  - conda-forge
+dependencies:
+    - rasterio
+    - matplotlib
+    - xarray
+    - jupyter
+    - netcdf4
+    - geopandas
+    - requests
